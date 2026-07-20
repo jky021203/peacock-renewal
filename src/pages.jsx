@@ -89,18 +89,17 @@ export function HomePage({ onAdd }) {
 
       <section className="section-shell recipe-section">
         <div className="recipe-intro">
-          <p className="eyebrow">RECIPE PAIRING</p>
           <h2>레시피와 함께</h2>
           <p>피코크 제품으로<br />쉽게 완성하는 근사한 한 끼</p>
           <button className="outline-button" type="button" onClick={() => goTo("gourmet")}>레시피 더보기 <ArrowRight size={18} /></button>
         </div>
         <button className="recipe-card" type="button" onClick={() => goTo("gourmet")}>
-          <img src={generatedAssets.recipe} alt="차돌 우동 레시피" width="1500" height="1000" loading="lazy" />
-          <span><strong>차돌 우엉 우동</strong><small>프리미엄 한식 다이닝</small></span>
+          <img src={generatedAssets.recipe} alt="차돌 오일 우동 레시피" width="1500" height="1000" loading="lazy" />
+          <span><strong>차돌 오일 우동</strong><small>프리미엄 한식 다이닝</small></span>
         </button>
         <div className="recipe-product">
           <img src={homeProducts[1].pack} alt="초마 짬뽕 패키지" width="480" height="480" loading="lazy" />
-          <div><span>함께 즐겨보세요</span><strong>피코크 차돌 우동</strong><p>434g · 2인분</p></div>
+          <div><strong>피코크 차돌 오일 우동</strong><p>434g · 2인분</p></div>
           <strong>9,480원</strong>
         </div>
         <span className="recipe-plus" aria-hidden="true"><Plus size={22} /></span>
