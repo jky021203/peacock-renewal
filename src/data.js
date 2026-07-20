@@ -87,5 +87,5 @@ export const generatedAssets = {
   hero: asset("generated/hero-noodles.webp"),
   recipe: asset("generated/recipe-noodles.webp"),
   principles: asset("generated/brand-principles.webp"),
-  wordmark: asset("shared/peacock-logo.webp"),
+  wordmark: asset("shared/peacock-wordmark.webp"),
 };
