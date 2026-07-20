@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.npm-cache/
+.DS_Store
+.qa-raw/
+.source-assets/
+.npmrc
+AGENTS.md
