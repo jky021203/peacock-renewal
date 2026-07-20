@@ -6,3 +6,4 @@ dist/
 .source-assets/
 .npmrc
 AGENTS.md
+.vercel
